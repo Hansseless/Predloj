@@ -12,13 +12,45 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
-                   Text="Нажимай в окошки по очереди"/>
+                   FontSize="40" TextAlignment="Center" VerticalAlignment="Center"
+                   Text="Нажимай на окошки по очереди"/>
+        <TextBlock Grid.Row="1" Grid.Column="0"
+                   Text="Моя самая любимая,"/>
+        <TextBlock Grid.Row="2" Grid.Column="1"
+                   Text="самая нежная и ласковая,"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+                   Text="страстная и игривая,"/>
+        <TextBlock Grid.Row="4" Grid.Column="0"
+                   Text="чуткая и заботливая,"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
+                   Text="САМАЯ-САМАЯ ЛУЧШАЯ ЛИСЯ НА СВЕТЕ!!!"/>
+        <TextBlock Grid.Row="6" Grid.Column="0"
+                   Text="Которую я так сильно люблю!"/>
+        <TextBlock Grid.Row="7" Grid.Column="1"
+                   Text="О которой все мои мысли каждый день..."/>
+        <TextBlock Grid.Row="8" Grid.Column="0"
+                   Text="К вкуснятинам которой я возвращаюсь каждый день!"/>
+        <TextBlock Grid.Row="9" Grid.Column="1"
+                   Text="И иногда к подгорелостям ^_^"/>
+        <TextBlock Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2"
+                   Text="Из-за которой я заплакал составляя эту страницу."/>
     </Grid>
 </Window>

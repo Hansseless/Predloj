@@ -1,0 +1,81 @@
+﻿<Window x:Class="Predloj.Vopros"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Predloj"
+        mc:Ignorable="d"
+        Title="Vopros" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center"
+                   FontSize="40"
+            Text="Пожалуйста, заполните данные:"/>
+
+        <TextBlock Grid.Row="1"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Фамилия"/>
+        <TextBox Grid.Row="1" Grid.Column="1"
+                 Margin="5" FontSize="20" TextAlignment="Center"
+                 Name="LastName"/>
+
+        <TextBlock Grid.Row="2"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Имя"/>
+        <TextBox Grid.Row="2" Grid.Column="1"
+                 Margin="5" FontSize="20" TextAlignment="Center"
+                 Name="FirstName"/>
+
+        <TextBlock Grid.Row="3"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Отчество"/>
+        <TextBox Grid.Row="3" Grid.Column="1"
+                 Margin="5" FontSize="20" TextAlignment="Center"
+                 Name="MiddleName"/>
+
+        <TextBlock Grid.Row="4" Grid.RowSpan="2"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Дата рождения"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="1"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Число"/>
+        <ComboBox Grid.Row="5" Grid.Column="1"
+                 Margin="5" FontSize="20"
+                 Name="Day"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="2"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Месяц"/>
+        <ComboBox Grid.Row="5" Grid.Column="2"
+                 Margin="5" FontSize="20"
+                 Name="Month"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="3"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"
+            Text="Год"/>
+        <ComboBox Grid.Row="5" Grid.Column="3"
+                 Margin="5" FontSize="20"
+                 Name="Year"/>
+
+        <Button Grid.Row="7" Grid.Column="3"
+                 Margin="5" FontSize="20"
+            Content="Ввести данные" Click="Button_Click"/>
+    </Grid>
+</Window>

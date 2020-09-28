@@ -45,6 +45,8 @@ namespace Predloj
             if (FirstName.Text == "Карина" & LastName.Text == "Павлова" & MiddleName.Text == "Андреевна" & Day.SelectedIndex == 17 & Month.SelectedIndex == 4 & Year.SelectedIndex == 16)
             {
                 MessageBox.Show("true");
+                SamoPred pred = new SamoPred();
+                pred.ShowDialog();
             }
             else if (FirstName.Text == "Ангелина" & LastName.Text == "Павлова" & MiddleName.Text == "Евгеньевна")
             {

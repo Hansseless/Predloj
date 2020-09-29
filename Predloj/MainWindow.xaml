@@ -26,12 +26,13 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Foreground="MediumVioletRed"
-                   HorizontalAlignment="Center"
+                   HorizontalAlignment="Center" FontStyle="Italic"
                    Text="Великолепное предложение, от которого вы не сможете отказаться!"
                    FontSize="60" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold"/>
 
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
-                   HorizontalAlignment="Center" TextAlignment="Center" Foreground="MediumVioletRed" FontWeight="DemiBold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Italic"
+                   TextAlignment="Center" Foreground="MediumVioletRed" FontWeight="DemiBold"
                    Text="Вы готовы его получить?"
                    FontSize="40"/>
 

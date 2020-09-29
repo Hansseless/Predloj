@@ -28,25 +28,25 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontWeight="Bold"
-                    FontStyle="Italic"
+                    FontStyle="Italic" Foreground="Goldenrod"
                    TextAlignment="Center" VerticalAlignment="Center"
                    FontSize="50"
                    Text="Ты, самая замечательная лися,"/>
 
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="Bold"
-                    FontStyle="Italic"
+                    FontStyle="Italic" Foreground="Goldenrod"
                    TextAlignment="Center" VerticalAlignment="Center"
                    FontSize="50"
-                   Text="выйдешь за меня,"/>
+                   Text="выйдешь замуж за меня,"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="Bold"
-                    FontStyle="Italic"
+        <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" FontWeight="Bold"
+                    FontStyle="Italic" Foreground="Goldenrod"
                    TextAlignment="Center" VerticalAlignment="Center"
                    FontSize="50"
-                   Text="такого, какой я есть"/>
+                   Text="вот такого программиста, какой я есть"/>
 
         <TextBlock Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="ExtraBold"
-                    FontStyle="Italic"
+                    FontStyle="Italic" Foreground="Goldenrod"
                    TextAlignment="Center" VerticalAlignment="Center"
                    FontSize="60"
                    Text="?"/>
@@ -54,7 +54,7 @@
         <Button Grid.Row="6" Grid.Column="1"
                 Name="NO"
                 Margin="20,0,20,0"
-                FontSize="50" BorderBrush="Black"
+                FontSize="35" BorderBrush="Black"
                 Content="Нет..." Click="NO_Click"/>
 
         <Button Grid.Row="6" Grid.Column="2" FontWeight="Bold" FontStyle="Italic"

@@ -33,42 +33,42 @@
 
         <TextBlock Grid.Row="1"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Фамилия"/>
         <TextBox Grid.Row="1" Grid.Column="1"
                  Margin="5" FontSize="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-                 Background="Transparent"
+                 Background="Transparent" FontStyle="Italic"
                    Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="LastName" />
 
         <TextBlock Grid.Row="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Имя"/>
         <TextBox Grid.Row="2" Grid.Column="1"
                  Margin="5" FontSize="40"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-                 Background="Transparent"
+                 Background="Transparent" FontStyle="Italic"
                    Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="FirstName"/>
 
         <TextBlock Grid.Row="3"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Отчество"/>
         <TextBox Grid.Row="3" Grid.Column="1"
                  Margin="5" FontSize="40"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-                 Background="Transparent"
+                 Background="Transparent" FontStyle="Italic"
                    Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="MiddleName"/>
 
         <TextBlock Grid.Row="4" Grid.RowSpan="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Дата рождения"/>
 
         <TextBlock Grid.Row="4" Grid.Column="1"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Число"/>
         <ComboBox Grid.Row="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
@@ -77,7 +77,7 @@
 
         <TextBlock Grid.Row="4" Grid.Column="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Месяц"/>
         <ComboBox Grid.Row="5" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
@@ -86,7 +86,7 @@
 
         <TextBlock Grid.Row="4" Grid.Column="3"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
-                   Foreground="DarkGoldenrod" FontWeight="Bold"
+                   Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Год"/>
         <ComboBox Grid.Row="5" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
@@ -94,7 +94,7 @@
                  Name="Year"/>
 
         <Button Grid.Row="7" Grid.Column="3"
-                 Margin="5" FontSize="40"
+                 Margin="5" FontSize="39" FontStyle="Italic" FontWeight="Bold"
             Content="Ввести данные" Click="Button_Click"/>
     </Grid>
 </Window>

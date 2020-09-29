@@ -76,39 +76,91 @@
                 FontSize="20" FontWeight="DemiBold"
                 Margin="15,0,15,0" Content="ДА!" Click="YES_Click"
                 Visibility="Hidden"/>
-
         <Button Grid.Row="1" Grid.ColumnSpan="3" Content="Кнопка 1"
-                Name="b1"
-                FontSize="40" Click="b1_Click"/>
+                Name="b1" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="40" Click="b1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
         <Button Grid.Row="2" Grid.ColumnSpan="3" Content="Кнопка 2"
-                Name="b2"
-                FontSize="40" Click="b2_Click"/>
+                Name="b2" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="40" Click="b2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
         <Button Grid.Row="3" Grid.ColumnSpan="3" Content="Кнопка 3"
-                Name="b3"
-                FontSize="40" Click="b3_Click"/>
+                Name="b3" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="40" Click="b3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="4" Grid.ColumnSpan="3" Content="Кнопка 4"
-                Name="b4"
-                FontSize="40" Click="b4_Click"/>
+                Name="b4" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="40" Click="b4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="5" Grid.ColumnSpan="3" Content="Кнопка 5"
-                Name="b5"
-                FontSize="40" Click="b5_Click"/>
+                Name="b5" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="40" Click="b5_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="6" Grid.ColumnSpan="3" Content="Кнопка 6"
-                Name="b6"
-                FontSize="39" Click="b6_Click"/>
+                Name="b6" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="39" Click="b6_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="7" Grid.ColumnSpan="3" Content="Кнопка 7"
-                Name="b7"
-                FontSize="38" Click="b7_Click"/>
+                Name="b7" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="38" Click="b7_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="8" Grid.ColumnSpan="3" Content="Кнопка 8"
-                Name="b8"
-                FontSize="37" Click="b8_Click"/>
+                Name="b8" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="37" Click="b8_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="9" Grid.ColumnSpan="3" Content="Кнопка 9"
-                Name="b9"
-                FontSize="36" Click="b9_Click"/>
+                Name="b9" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="36" Click="b9_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
         <Button Grid.Row="10" Grid.ColumnSpan="3" Content="Кнопка 10"
-                Name="b10"
-                FontSize="35" Click="b10_Click"/>
-        <Button Grid.Row="11" Grid.ColumnSpan="3" Content="Кнопка 11"
-                Name="b11"
-                FontSize="34" Click="b11_Click"/>
+                Name="b10" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="35" Click="b10_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
+        <Button Grid.Row="11" Grid.ColumnSpan="3" Grid.RowSpan="2" Content="Кнопка 11"
+                Name="b11" FontWeight="ExtraBold" Foreground="Gold"
+                FontSize="34" Click="b11_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pic/Krasnoe-serdtse-s-blikom-narisovannoe.png"/>
+            </Button.Background>
+        </Button>
+        
     </Grid>
 </Window>

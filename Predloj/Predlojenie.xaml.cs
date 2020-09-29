@@ -23,5 +23,15 @@ namespace Predloj
         {
             InitializeComponent();
         }
+
+        private void Yes_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Посмотри на меня, родная!", "");
+        }
+
+        private void NO_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Ты уверена?","");
+        }
     }
 }

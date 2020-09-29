@@ -127,5 +127,8 @@
   <ItemGroup>
     <Resource Include="Pic\Krasnoe-serdtse-s-blikom-narisovannoe.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pic\FonVoprosa.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,13 +6,61 @@
         xmlns:local="clr-namespace:Predloj"
         mc:Ignorable="d"
         Title="Predlojenie" Height="800" Width="1280" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Pic/FonVoprosa.jpg"/>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontWeight="Bold"
+                    FontStyle="Italic"
+                   TextAlignment="Center" VerticalAlignment="Center"
+                   FontSize="50"
+                   Text="Ты, самая замечательная лися,"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="Bold"
+                    FontStyle="Italic"
+                   TextAlignment="Center" VerticalAlignment="Center"
+                   FontSize="50"
+                   Text="выйдешь за меня,"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="Bold"
+                    FontStyle="Italic"
+                   TextAlignment="Center" VerticalAlignment="Center"
+                   FontSize="50"
+                   Text="такого, какой я есть"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="ExtraBold"
+                    FontStyle="Italic"
+                   TextAlignment="Center" VerticalAlignment="Center"
+                   FontSize="60"
+                   Text="?"/>
         
+        <Button Grid.Row="6" Grid.Column="1"
+                Name="NO"
+                Margin="20,0,20,0"
+                FontSize="50" BorderBrush="Black"
+                Content="Нет..." Click="NO_Click"/>
+
+        <Button Grid.Row="6" Grid.Column="2" FontWeight="Bold" FontStyle="Italic"
+                Name="Yes"
+                Margin="20,0,20,0"
+                FontSize="50" BorderBrush="Black"
+                Content="ДА!" Click="Yes_Click"/>
     </Grid>
 </Window>

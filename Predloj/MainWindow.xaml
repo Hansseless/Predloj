@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Predloj"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="MainWindow" Height="800" Width="1280" WindowStartupLocation="CenterScreen" WindowState="Maximized">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -25,77 +25,77 @@
         <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"
                    HorizontalAlignment="Center"
                    Text="Великолепное предложение, от которого вы не сможете отказаться!"
-                   FontSize="24"/>
+                   FontSize="40"/>
         
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
                    HorizontalAlignment="Center"
                    Text="Вы готовы его получить?"
-                   FontSize="20"/>
+                   FontSize="40"/>
 
         <Button Grid.Row="3" Grid.Column="1"
                 Name="No1" Visibility="Visible"
                 Content="Не хочу ("
                 Margin="15" MouseEnter="No1_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
         
         <Button Grid.Row="3" Grid.Column="0"
                 Name="No2" Visibility="Hidden"
                 Content="Не буду! ((("
                 Margin="15" MouseEnter="No2_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
         
         <Button Grid.Row="0" Grid.Column="4"
                 Name="No3" Visibility="Hidden"
                 Content="Не заставишь!"
                 Margin="15" MouseEnter="No3_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="3" Grid.Column="3"
                 Name="No4" Visibility="Hidden"
                 Content="НЕ ЗА ЧТО!!!"
                 Margin="15" MouseEnter="No4_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
         
         <Button Grid.Row="0" Grid.Column="1"
                 Name="No5" Visibility="Hidden"
                 Content="Отстань!!!"
                 Margin="15" MouseEnter="No5_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="4" Grid.Column="0"
                 Name="No6" Visibility="Hidden"
                 Content="Я не люблю тебя!!!"
                 Margin="15" MouseEnter="No6_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="4" Grid.Column="2"
                 Name="No7" Visibility="Hidden"
                 Content="Да что ты привязался!?"
                 Margin="15" MouseEnter="No7_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="0" Grid.Column="0"
                 Name="No8" Visibility="Hidden"
                 Content="Да что ты привязался!?"
                 Margin="15" MouseEnter="No8_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="0" Grid.Column="0"
                 Name="No9" Visibility="Hidden"
                 Content="Всё равно НЕТ!!!"
                 Margin="15" MouseEnter="No9_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="2" Grid.Column="3"
                 Name="No10" Visibility="Hidden"
                 Content="Прекрати!!!"
                 Margin="15" MouseEnter="No10_MouseEnter"
-                FontSize="18"/>
+                FontSize="20"/>
 
         <Button Grid.Row="3" Grid.Column="2"
                 Name="Yes"
                 Content="Готова!"
                 Margin="15"
-                FontSize="18" Click="Yes_Click"/>
+                FontSize="40" Click="Yes_Click"/>
     </Grid>
 </Window>

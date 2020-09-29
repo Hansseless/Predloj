@@ -41,10 +41,8 @@ namespace Predloj
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{Day.SelectedItem}, {Month.SelectedItem}, {Year.SelectedItem}");
             if (FirstName.Text == "Карина" & LastName.Text == "Павлова" & MiddleName.Text == "Андреевна" & Day.SelectedIndex == 17 & Month.SelectedIndex == 4 & Year.SelectedIndex == 16)
             {
-                MessageBox.Show("true");
                 SamoPred pred = new SamoPred();
                 pred.ShowDialog();
             }

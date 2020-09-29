@@ -23,5 +23,98 @@ namespace Predloj
         {
             InitializeComponent();
         }
+
+        private void YES_Click(object sender, RoutedEventArgs e)
+        {
+            Predlojenie pred = new Predlojenie();
+            pred.ShowDialog();
+        }
+
+        private void b1_Click(object sender, RoutedEventArgs e)
+        {
+            b1.Visibility = Visibility.Hidden;
+        }
+
+        private void b2_Click(object sender, RoutedEventArgs e)
+        {
+            if (b1.Visibility == Visibility.Hidden)
+            {
+                b2.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b3_Click(object sender, RoutedEventArgs e)
+        {
+            if (b2.Visibility == Visibility.Hidden)
+            {
+                b3.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b4_Click(object sender, RoutedEventArgs e)
+        {
+            if (b3.Visibility == Visibility.Hidden)
+            {
+                b4.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b5_Click(object sender, RoutedEventArgs e)
+        {
+            if (b4.Visibility == Visibility.Hidden)
+            {
+                b5.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b6_Click(object sender, RoutedEventArgs e)
+        {
+            if (b5.Visibility == Visibility.Hidden)
+            {
+                b6.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b7_Click(object sender, RoutedEventArgs e)
+        {
+            if (b6.Visibility == Visibility.Hidden)
+            {
+                b7.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b8_Click(object sender, RoutedEventArgs e)
+        {
+            if (b7.Visibility == Visibility.Hidden)
+            {
+                b8.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b9_Click(object sender, RoutedEventArgs e)
+        {
+            if (b8.Visibility == Visibility.Hidden)
+            {
+                b9.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b10_Click(object sender, RoutedEventArgs e)
+        {
+            if (b9.Visibility == Visibility.Hidden)
+            {
+                b10.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void b11_Click(object sender, RoutedEventArgs e)
+        {
+            if (b10.Visibility == Visibility.Hidden)
+            {
+                b11.Visibility = Visibility.Hidden;
+                YES.Visibility = Visibility.Visible;
+                NO.Visibility = Visibility.Visible;
+            }
+        }
     }
 }

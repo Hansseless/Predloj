@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:Predloj"
         mc:Ignorable="d"
         Title="SamoPred" Height="800" Width="1280" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Pic/Foxkiss.jpg"/>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2,0*"/>
@@ -31,36 +34,37 @@
 
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                    FontSize="40" TextAlignment="Center" VerticalAlignment="Center"
+                   FontWeight="Bold" Foreground="DarkGoldenrod"
                    Text="Нажимай на окошки по очереди"/>
         <TextBlock Grid.Row="1" Grid.Column="0" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" FontWeight="Bold"
                    Text="Моя самая любимая,"/>
         <TextBlock Grid.Row="2" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" FontWeight="Bold"
                    Text="самая нежная и ласковая,"/>
         <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="Red" FontWeight="Bold"
                    Text="страстная и игривая,"/>
         <TextBlock Grid.Row="4" Grid.Column="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="Goldenrod" FontWeight="Bold"
                    Text="чуткая и заботливая,"/>
         <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="DarkOrange" FontWeight="Bold"
                    Text="САМАЯ-САМАЯ ЛУЧШАЯ ЛИСЯ НА СВЕТЕ!!!"/>
         <TextBlock Grid.Row="6" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="Red" FontWeight="Bold"
                    Text="Которую я так сильно люблю!"/>
         <TextBlock Grid.Row="7" Grid.Column="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="Red" FontWeight="Bold"
                    Text="О которой все мои мысли..."/>
         <TextBlock Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="OrangeRed" FontWeight="Bold"
                    Text="К вкуснятинам которой я возвращаюсь каждый день!"/>
         <TextBlock Grid.Row="9" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" FontWeight="Bold"
                    Text="И иногда к подгорелостям ^_^"/>
         <TextBlock Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="2" TextAlignment="Center" VerticalAlignment="Center"
-                   FontSize="26"
+                   FontSize="26" Foreground="Red" FontWeight="DemiBold"
                    Text="Из-за которой я заплакал составляя эту страницу."/>
         <TextBlock Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="3" TextAlignment="Center" VerticalAlignment="Center"
                    FontSize="34" FontWeight="Black"

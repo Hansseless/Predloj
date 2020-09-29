@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:Predloj"
         mc:Ignorable="d"
         Title="Vopros" Height="800" Width="1280" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush ImageSource="Pic/Fon.jpg"/>
+    </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -25,53 +28,69 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center"
-                   FontSize="40"
+                   FontSize="40" Foreground="Orange" FontWeight="ExtraBold"
             Text="Пожалуйста, заполните данные:"/>
 
         <TextBlock Grid.Row="1"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Фамилия"/>
         <TextBox Grid.Row="1" Grid.Column="1"
                  Margin="5" FontSize="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                 Background="Transparent"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="LastName" />
 
         <TextBlock Grid.Row="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Имя"/>
         <TextBox Grid.Row="2" Grid.Column="1"
                  Margin="5" FontSize="40"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                 Background="Transparent"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="FirstName"/>
 
         <TextBlock Grid.Row="3"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Отчество"/>
         <TextBox Grid.Row="3" Grid.Column="1"
                  Margin="5" FontSize="40"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                 Background="Transparent"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
                  Name="MiddleName"/>
 
         <TextBlock Grid.Row="4" Grid.RowSpan="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Дата рождения"/>
 
         <TextBlock Grid.Row="4" Grid.Column="1"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Число"/>
         <ComboBox Grid.Row="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
+                  Height="60" Width="100"
                  Name="Day"/>
 
         <TextBlock Grid.Row="4" Grid.Column="2"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Месяц"/>
         <ComboBox Grid.Row="5" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
+                  Height="60" Width="100"
                  Name="Month"/>
 
         <TextBlock Grid.Row="4" Grid.Column="3"
                    VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"
+                   Foreground="DarkGoldenrod" FontWeight="Bold"
             Text="Год"/>
         <ComboBox Grid.Row="5" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                  Margin="5" FontSize="40"
+                  Height="60" Width="120"
                  Name="Year"/>
 
         <Button Grid.Row="7" Grid.Column="3"

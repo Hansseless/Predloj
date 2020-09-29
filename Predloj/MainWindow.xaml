@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:Predloj"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1280" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush ImageSource="Pic/s1200.jpg"/>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -14,21 +17,21 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
-        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Foreground="MediumVioletRed"
                    HorizontalAlignment="Center"
                    Text="Великолепное предложение, от которого вы не сможете отказаться!"
-                   FontSize="40"/>
-        
+                   FontSize="60" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold"/>
+
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
-                   HorizontalAlignment="Center"
+                   HorizontalAlignment="Center" TextAlignment="Center" Foreground="MediumVioletRed" FontWeight="DemiBold"
                    Text="Вы готовы его получить?"
                    FontSize="40"/>
 
@@ -37,13 +40,13 @@
                 Content="Не хочу ("
                 Margin="15" MouseEnter="No1_MouseEnter"
                 FontSize="20"/>
-        
+
         <Button Grid.Row="3" Grid.Column="0"
                 Name="No2" Visibility="Hidden"
                 Content="Не буду! ((("
                 Margin="15" MouseEnter="No2_MouseEnter"
                 FontSize="20"/>
-        
+
         <Button Grid.Row="0" Grid.Column="4"
                 Name="No3" Visibility="Hidden"
                 Content="Не заставишь!"
@@ -55,7 +58,7 @@
                 Content="НЕ ЗА ЧТО!!!"
                 Margin="15" MouseEnter="No4_MouseEnter"
                 FontSize="20"/>
-        
+
         <Button Grid.Row="0" Grid.Column="1"
                 Name="No5" Visibility="Hidden"
                 Content="Отстань!!!"

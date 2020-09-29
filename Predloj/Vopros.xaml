@@ -71,7 +71,7 @@
                    Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Число"/>
         <ComboBox Grid.Row="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                 Margin="5" FontSize="40"
+                 Margin="5" FontSize="30" 
                   Height="60" Width="100"
                  Name="Day"/>
 
@@ -80,7 +80,7 @@
                    Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Месяц"/>
         <ComboBox Grid.Row="5" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                 Margin="5" FontSize="40"
+                 Margin="5" FontSize="30"
                   Height="60" Width="100"
                  Name="Month"/>
 
@@ -89,7 +89,7 @@
                    Foreground="DarkGoldenrod" FontWeight="Bold" FontStyle="Italic"
             Text="Год"/>
         <ComboBox Grid.Row="5" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                 Margin="5" FontSize="40"
+                 Margin="5" FontSize="30"
                   Height="60" Width="120"
                  Name="Year"/>
 

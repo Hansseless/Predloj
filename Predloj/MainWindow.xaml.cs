@@ -98,7 +98,8 @@ namespace Predloj
         private void Yes_Click(object sender, RoutedEventArgs e)
         {
             Vopros vopros = new Vopros();
-            vopros.ShowDialog();
+            vopros.Show();
+            this.Close();
         }
     }
 }

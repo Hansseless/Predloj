@@ -27,7 +27,8 @@ namespace Predloj
         private void YES_Click(object sender, RoutedEventArgs e)
         {
             Predlojenie pred = new Predlojenie();
-            pred.ShowDialog();
+            pred.Show();
+            this.Close();
         }
 
         private void b1_Click(object sender, RoutedEventArgs e)
